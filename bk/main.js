@@ -14,7 +14,7 @@ let screepsTargetCreation = {
 Memory.banStructures = ['66b9490d5e26ad0012d340db']
 
 module.exports.loop = function () {
-
+  console.log('funziona veramente?')
   /*var tower = Game.getObjectById('f1b0e2d7e81fe879025fbc74');
   if(tower) {
       var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
